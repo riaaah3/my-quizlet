@@ -16,12 +16,21 @@
             <div class="col s12 l6 offset-13">
                 <div id="start-screen">
                     <h1>This is a timed quiz testing some JavaScript fundamentals.<h1>
-                    <h2>Try to answer the following questions within the alotted time. Keep in mind incorrect answers will result in loss of time.</h2>
-                    <h3>Let's get started!</h3>
-                        <button id="start-btn">Start Quiz</button>
+                            <h2>Try to answer the following questions within the alotted time. Keep in mind incorrect
+                                answers will result in loss of time.</h2>
+                            <h3>Let's get started!</h3>
+                            <button id="start-btn">Start Quiz</button>
                 </div>
                 <div id="quiz-screen" class="hide">
-                            Quiz Screen!
+                    <h3 id="quizStart"></h3>
+                    <div class="d-grid">
+                        <button class="options"></button>
+                        <button class="options"></button>
+                        <button class="options"></button>
+                        <button class="options"></button>
+                    </div>
+                    Quiz Screen!
+
                 </div>
                 <div class="container">
                     <h1 id="countdown"></h1>
@@ -31,6 +40,7 @@
                     <div class="progress purple">
                         <div class="indeterminate"></div>
                     </div>
+                    <div></div>
 
                     <p class="center"><a href="questions.html" class="btn blue">Start Here</a></p>
                 </form>
