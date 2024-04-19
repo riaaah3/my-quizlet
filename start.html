@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./start.css">
+    <title>Quiz-Start</title>
+</head>
+
+<body>
+    <section class="container section">
+        <div class="row">
+            <header>
+                <h1>Coding Quiz!</h1>
+            </header>
+            <div class="col s12 l6 offset-13">
+                <div id="start-screen">
+                    <h1>This is a timed quiz testing some JavaScript fundamentals.<h1>
+                    <h2>Try to answer the following questions within the alotted time. Keep in mind incorrect answers will result in loss of time.</h2>
+                    <h3>Let's get started!</h3>
+                        <button id="start-btn">Start Quiz</button>
+                </div>
+                <div id="quiz-screen" class="hide">
+                            Quiz Screen!
+                </div>
+                <div class="container">
+                    <h1 id="countdown"></h1>
+                </div>
+                <form id="end-screen" class="myform hide" name="id" onsubmit="submitted(event)">
+                    <h4 class="center-align white-text">Name</h4>
+                    <div class="progress purple">
+                        <div class="indeterminate"></div>
+                    </div>
+
+                    <p class="center"><a href="questions.html" class="btn blue">Start Here</a></p>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <script src="questions.js"></script>
+    <script src="start.js"></script>
+</body>
+
+</html>

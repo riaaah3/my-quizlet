@@ -1,0 +1,30 @@
+body {
+
+    background-image: url("./multicolor.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+header {
+    color:fuchsia;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.row {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.p {
+    padding: 8px;
+}
+
+.hide {
+    display: none
+}
