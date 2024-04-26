@@ -9,7 +9,7 @@ var endScreen = document.getElementById("end-screen");
 var finalScore = document.getElementById("score");
 var showUsers = document.getElementById("all-users");
 var timerObj;
-var timerSeconds = 100;
+var timerSeconds = 50;
 
 
 
