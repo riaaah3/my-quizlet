@@ -29,20 +29,21 @@
                         <button class="options"></button>
                         <button class="options"></button>
                     </div>
+                    <p id="rightAns"></p>
                     Quiz Screen!
 
                 </div>
                 <div class="container">
                     <h1 id="countdown"></h1>
+                    <h1 id="score"></h1>
                 </div>
-                <form id="end-screen" class="myform hide" name="id" onsubmit="submitted(event)">
-                    <h4 class="center-align white-text">Name</h4>
-                    <div class="progress purple">
-                        <div class="indeterminate"></div>
-                    </div>
-                    <div></div>
+                <form id="end-screen" class="myform hide" name="saveUser">
+                    <h4 id="all-users" class="center-align white-text">Name</h4>
+                    <label>Enter username</label>
+                    <input type="text" id="username">
+                    <button>Save Users Score</button>
 
-                    <p class="center"><a href="questions.html" class="btn blue">Start Here</a></p>
+                    <p class="center"><a href="./highscore.html" class="btn btn-primary">Check Previous Score</a></p>
                 </form>
             </div>
         </div>

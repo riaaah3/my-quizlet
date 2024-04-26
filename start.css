@@ -4,18 +4,18 @@ body {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    color: white;
+    background-color: #20c997;
 }
 
 header {
-    color:fuchsia;
+    color: #6f42c1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: center;
 }
 
 .row {
-    color: rgb(88, 31, 31);
+    color: #d63384;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     text-align: center;
