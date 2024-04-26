@@ -38,4 +38,4 @@ please check [here](https://choosealicense.com/licenses/)
 
 ## Link to Website
 
-(https://github.com/riaaah3/my-quizzer.git)
+(https://riaaah3.github.io/my-quizzer/)
